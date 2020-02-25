@@ -1,0 +1,157 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #ffffff;
+}
+
+/*--- navigation bar ---*/
+
+.navbar {
+	background: #ffffff;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #26752b;
+    cursor: pointer;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	color: #000;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+#about {
+    background: #eee !important;
+    padding: 60px 0 30px 0;
+}
+
+#about .about-img {
+  overflow: hidden;
+}
+
+#about .about-img img {
+  margin-left: -15px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #about .about-img {
+    height: auto;
+  }
+  #about .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about .content h2 {
+  color: #0c2e8a;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+}
+
+#about .content h3 {
+  color: #555;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+}
+
+#about .content p {
+  line-height: 26px;
+}
+
+#about .content p:last-child {
+  margin-bottom: 0;
+}
+
+#about .content i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #26752b;
+}
+
+#about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about .content ul li {
+  padding-bottom: 10px;
+}
+#breadCrumb
+{
+    background: #26752b; !important;
+    padding: 60px 0 30px 0;
+     clear: both;
+     color: rgba(40, 167, 69, 1);
+     margin: 0;
+     min-height: 2vh;
+     padding: 0.5em 0;
+     width: 100%;
+}
+
+#breadCrumb h2 
+{
+     font-family: inderRegular;
+     font-size: 32px;
+     text-transform: uppercase;
+     font-weight: 700;
+     position: relative;
+     padding-bottom: 10px;
+     text-align: center;
+     color: #ffffff;
+}
+
+/*--- footer ---*/
+
+.page-footer {
+	background-color: #26752b;
+	color: #fff;
+    padding: 60px 0 30px;
+}
+
+.page-footer h3 {
+	font-size: 26px;
+	margin: 0 0 20px 0;
+	padding: 2px 0 2px 0;
+	line-height: 1;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	color: #fff;
+  }
+.page-footer h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.foot a{
+	font-size: 13px;
+	color: #fff;
+	border-bottom: 1px solid #262c44;
+    padding: 5px 0;
+}
+
+.footer-copyright {
+    font-family: myFirstFont;
+    background-color: #ffffff;
+	color: #666;
+	padding: 20px 0;
+}
+.footer-copyright a {
+    color:#0c2e8a;
+}
+
