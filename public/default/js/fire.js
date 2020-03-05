@@ -1,8 +1,9 @@
 // Initialize Firebase
   var config = {
-    databaseURL: "////"
+    ////
   };
   firebase.initializeApp(config);
+  firebase.analytics();
   
   // Reference messages collection
   var messagesRef = firebase.database().ref('messages');
@@ -15,13 +16,13 @@
     e.preventDefault();
   
     // Get values
-    var name = getInputVal('name');
-    var department = getInputVal('department');
-    var faculty = getInputVal('faculty');
-    var year = getInputVal('year');
-    var phone = getInputVal('phone');
-    var email = getInputVal('email');
-    var whatsno = getInputVal('whatsno');
+    const name = getInputVal('name');
+    const department = getInputVal('department');
+    const faculty = getInputVal('faculty');
+    const year = getInputVal('year');
+    const phone = getInputVal('phone');
+    const email = getInputVal('email');
+    const whatsno = getInputVal('whatsno');
   
     // Save message
     saveMessage(name, department, faculty, year, phone, email, whatsno);
