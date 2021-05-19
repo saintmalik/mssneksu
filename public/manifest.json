@@ -1,0 +1,17 @@
+ {
+    "theme_color":"#26752b",
+    "backgroung_color": "ffffff",
+    "description": "MSSN EKSU is an Islamic Organization on Ekiti State University Campus., The society caters for the Academic excellence, spiritual uplift, moral consciousness and welfare of all Muslim students on campus",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "default/images/mssn-eksu.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+
+    "name": "MSSN Ekiti State",
+    "short_name": "MSSN EKSU",
+    "start_url": "/index.html?launcher=true"
+}

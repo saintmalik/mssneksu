@@ -1,12 +1,20 @@
 // Initialize Firebase
-  var config = {
-    ////
-  };
-  firebase.initializeApp(config);
-  firebase.analytics();
+var config = {
+  apiKey: "AIzaSyD9CtmOnvTgzesdH3YBzquIuHrARtfeU_M",
+  authDomain: "mssn-49bdd.firebaseapp.com",
+  databaseURL: "https://mssn-49bdd.firebaseio.com",
+  projectId: "mssn-49bdd",
+  storageBucket: "mssn-49bdd.appspot.com",
+  messagingSenderId: "476170176254",
+  appId: "1:476170176254:web:5e346b7fc10a62c07e87af",
+  measurementId: "G-H7BEX31T8D"
+};
+
+firebase.initializeApp(config);
+
   
   // Reference messages collection
-  var messagesRef = firebase.database().ref('messages');
+  var messagesRef = firebase.database().ref('Alumnis');
   
   // Listen for form submit
   document.getElementById('registerForm').addEventListener('submit', submitForm);
