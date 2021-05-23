@@ -1,4 +1,3 @@
-
 form.register-wthree .form-control {
     padding: 15px 20px;
     border: 1px solid #dbdde2;
@@ -22,21 +21,22 @@ form.register-wthree .form-control {
     font-size: 1.7em;
     color: #26752b;
 }
+
 h3 {
     color: #26752b;
 }
 
-.alert{
+.alert {
     border-radius: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background:#26752b;
-    color:#fff;
-    margin-bottom:10px;
-    display:none;
-  }
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background: #26752b;
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
+
 
 /* -- Responsive code -- */
- 
 
 @media screen and (max-width: 568px) {
     h5.cont-form {
@@ -59,7 +59,8 @@ h3 {
     form.register-wthree .form-control {
         padding: 7px 20px;
         font-size: 0.85em;
-    }   
+    }
 }
+
 
 /* -- //Responsive code -- */

@@ -7,23 +7,28 @@ form.register-wthree .form-control {
     box-shadow: 2px 8px 10px 0px rgba(50, 46, 46, 0.23);
     letter-spacing: 1px;
 }
+
 .form-group {
     font-weight: bold;
     color: #26752b;
 }
+
 .lol {
     text-align: center !important;
     font-weight: bold;
     color: #26752b !important;
 }
+
 .lol a {
     color: #26752b !important;
 }
+
 .contact-form-layouts {
     padding: 2em;
     border: 20px solid #eee;
     border-radius: 20px;
 }
+
 .cont-form {
     margin: 1em 0;
     text-align: center;
@@ -31,17 +36,20 @@ form.register-wthree .form-control {
     font-size: 1.7em;
     color: #26752b;
 }
+
 h3 {
     color: #26752b;
 }
-.alert{
+
+.alert {
     border-radius: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background:#26752b;
-    color:#fff;
-    margin-bottom:10px;
-    display:none;
-  }
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background: #26752b;
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
+
 @media screen and (max-width: 568px) {
     h5.cont-form {
         margin: 0 0 1em 0;
@@ -54,6 +62,7 @@ h3 {
         margin-top: 10px;
     }
 }
+
 @media screen and (max-width: 414px) {
     .contact-form-layouts {
         padding: 1em;
@@ -62,5 +71,5 @@ h3 {
     form.register-wthree .form-control {
         padding: 7px 20px;
         font-size: 0.85em;
-    }   
+    }
 }

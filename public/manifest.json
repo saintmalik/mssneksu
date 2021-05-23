@@ -13,5 +13,5 @@
 
     "name": "MSSN Ekiti State",
     "short_name": "MSSN EKSU",
-    "start_url": "/index.html?launcher=true"
+    "start_url": "/index.html"
 }
