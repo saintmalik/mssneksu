@@ -23,16 +23,16 @@ window.addEventListener("beforeinstallprompt", (e) => {
     showInstallPromotion();
 
     addBtn.addEventListener("click", () => {
-        // hide our user interface that shows our A2HS button
+        // hide our user interface that shows our MSSNEKSU button
         addBtn.style.display = "none";
         // Show the prompt
         deferredPrompt.prompt();
         // Wait for the user to respond to the prompt
         deferredPrompt.userChoice.then((choiceResult) => {
             if (choiceResult.outcome === "accepted") {
-                console.log("User accepted the A2HS prompt");
+                console.log("User accepted the MSSNEKSU prompt");
             } else {
-                console.log("User dismissed the A2HS prompt");
+                console.log("User dismissed the MSSNEKSU prompt");
             }
             deferredPrompt = null;
         });

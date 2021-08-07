@@ -24,6 +24,13 @@
     "redirects": [
       {
         "source": "/blog.html",
+        "destination": "https://blog.mssneksu.com.ng",
+        "type": 302
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/blog./",
         "destination": "/blog/",
         "type": 302
       }
