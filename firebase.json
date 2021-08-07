@@ -23,7 +23,7 @@
     "cleanUrls": true,
     "redirects": [
       {
-        "source": "/blog",
+        "source": "blog",
         "destination": "https://blog.mssneksu.com.ng",
         "type": 301
       }
